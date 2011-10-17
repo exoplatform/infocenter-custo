@@ -14,6 +14,17 @@
   <version>1.0-SNAPSHOT</version>
   <name>eXo Info Center customization plugin</name>
 
+   <scm>
+      <connection>scm:git:https://git.exoplatform.org/public/tools/infocenter-customization</connection>
+      <url>https://git.exoplatform.org/public/tools/infocenter-customization</url>
+      <developerConnection>scm:git:https://git.exoplatform.org/public/tools/infocenter-customization</developerConnection>
+   </scm>
+
+  <ciManagement>
+    <system>hudson</system>
+    <url>https://ci.exoplatform.org/job/infocenter-customization-master-ci/</url>
+  </ciManagement>
+
   <properties>
       <version.release.plugin>2.2.1</version.release.plugin>
       <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
