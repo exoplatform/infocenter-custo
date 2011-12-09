@@ -52,7 +52,7 @@
               <goal>unpack-dependencies</goal>
             </goals>
             <configuration>
-              <includes>**/*.css</includes>
+              <includes>**/*.css,**/*.png,**/*.gif,**/*.jpg</includes>
               <outputDirectory>${project.build.directory}/common-style</outputDirectory>
             </configuration>
           </execution>
@@ -73,6 +73,10 @@
                 <resource>
                   <directory>${project.build.directory}/common-style/css</directory>
                   <targetPath>stylesheets</targetPath>
+                </resource>
+                 <resource>
+                  <directory>${project.build.directory}/common-style/background</directory>
+                  <targetPath>background</targetPath>
                 </resource>
               </resources>
             </configuration>
