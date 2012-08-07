@@ -14,9 +14,9 @@
   <name>eXo Info Center customization plugin</name>
 
    <scm>
-      <connection>scm:git:https://git.exoplatform.org/public/tools/infocenter-customization</connection>
-      <url>https://git.exoplatform.org/public/tools/infocenter-customization</url>
-      <developerConnection>scm:git:https://git.exoplatform.org/public/tools/infocenter-customization</developerConnection>
+      <connection>scm:git:git://github.com/exoplatform/infocenter-custo.git</connection>
+      <url>https://fisheye.exoplatform.com/browse/infocenter-custo</url>
+      <developerConnection>scm:git:git@github.com:exoplatform/infocenter-custo.git</developerConnection>
    </scm>
 
   <ciManagement>
@@ -34,7 +34,7 @@
    <dependency>
      <groupId>org.exoplatform.doc</groupId>
      <artifactId>doc-style</artifactId>
-     <version>1.0.7-SNAPSHOT</version>
+     <version>1.0.7</version>
      <type>jar</type>
    </dependency>
   </dependencies>
